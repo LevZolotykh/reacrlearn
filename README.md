@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Шпора по React
+
+## Хуки
+
+Хуки — это функции, с помощью которых вы можете «подцепиться» к состоянию и методам жизненного цикла React из функциональных компонентов. Хуки не работают внутри классов — они даютc возможность использовать React без классов.
+
+Хуки можно делать свои, но на основаниии нижеперечисленных
+
+Хуки нельзя вкладывать в циклы, условия, функции и тд. Только верхний уровень компонента или хука
+
+useState()
+useEffect()
+useRef()
+useMemo()
+useCallback()
+useContext()
+
+# Состояние. useState()
+
+UseState() - функция, которая отвечает за работу с состоянием внутри компонента. В отличие от классовых компонентов хук занимается сразу всем: инициализацией, обновлением и доступом к состоянию.
